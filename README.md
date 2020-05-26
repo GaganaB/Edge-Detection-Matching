@@ -1,5 +1,7 @@
 <h1> Performing Edge Detection using Robert, Prewitt, Canny and Sobel Filters and Matching </h1>
 
+Referenced - My Paper: https://www.researchgate.net/publication/300080134_A_Double_Filtered_GIST_Descriptor_for_Face_Recognition
+
 <h1> Edge Detection </h1>
 Edge Detection is an image processing technique popularly used for data extraction and segmentation which helps find boundaries of objects within images by detecting discontinuities in brightness. 
 While these are likely to correspond to discontinuities across depths, surface orientations, or reflect on changes in material properties and variations in scene illuminations, these techniques are hampered by fragmentations, missing segments thus making fundamental tasks non-trivial.
@@ -55,5 +57,3 @@ https://www.vlfeat.org/compiling-unix.html
 https://www.mathworks.com/help/matlab/matlab_external/before-you-run-a-mex-file.html
 Finally, establish database connectivity, import data, select features across sets for comparison and then close the established connection. 
 The process of matching can happen via SIFT which detects key points in images and maps other similar ones while working with a similarity score that is defined based on number of similar points.
-
-Paper: https://www.researchgate.net/publication/300080134_A_Double_Filtered_GIST_Descriptor_for_Face_Recognition
